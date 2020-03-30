@@ -1,0 +1,75 @@
+License Terms
+All instances of the “Use Rights” in Customer’s volume licensing agreement refer to the terms identified in the “Use Rights” section of each Product Entry. For each Product, this includes the Universal License Terms, applicable License Model Terms and any Product-Specific License Terms in the Product Entry.
+
+For Online Services, references to “Use Rights” in Customer’s volume licensing agreement refer to the OST. If a software Product includes both software and online services, the online services will be governed by the terms in the OST and all the software will be governed by these License Terms.
+Universal License Terms
+Universal License Terms apply to all software Products licensed through Microsoft Volume Licensing (except where specifically noted in the License Model Terms and/or the Product-Specific License Terms).
+
+1. Definitions
+Terms used in the Product Terms but not defined in the Glossary will have the definition provided in Customer’s volume licensing agreement.
+
+2. Customer’s Use Rights
+If Customer complies with its volume licensing agreement, it may use the software as expressly permitted in the Product Terms. Customer needs a License for each Product and separately licensed functionality used on a device or by a user.
+
+3. Rights to Use Other Versions and Lower Editions
+For any permitted copy or Instance, Customer may create, store, install, run or access in place of the version licensed, a copy or Instance of a prior version, different permitted language version, different available platform version (for example, 32 bit or 64 bit) or a permitted lower edition. The use rights for the licensed version still apply. Licenses for prior versions and lower editions do not satisfy the licensing requirements for a Product.
+
+4. Third Party Software
+The software may contain third party proprietary or open source programs or components that are licensed under separate terms that are presented to Customer during installation or in the "ThirdPartyNotices" file accompanying the software. The software may also contain third party open source programs that Microsoft, not the third party, licenses to Customer under Microsoft’s license terms.
+
+5. Pre-Release Code, Updates or Supplements, Additional Functionality
+Microsoft may offer updates or supplements to the Products. Customer may use the updates or supplements to the Products, pre-release code, additional functionality and optional add-on services to the Products, subject to specific terms (if any) that accompany them. Some Products require automatic updates, as described in the Product-Specific License Terms.
+
+6. Restrictions
+Customer may not (and is not licensed to) use the Products to offer commercial hosting services to third parties, work around any technical limitations in the Products or restrictions in Product documentation, or separate the software for use in more than one OSE under a single License (even if the OSEs are on the same physical hardware system), unless expressly permitted by Microsoft. Rights to access the software on any device do not give Customer any right to implement Microsoft patents or other Microsoft intellectual property in the device itself or in any other software or devices.
+
+7. Software Assurance
+SA coverage may grant additional use rights to Customer. These additional rights end at the expiration of the SA coverage for the License, unless otherwise noted in the benefit description.
+
+8. Outsourcing Software Management
+Customer may install and use licensed copies of the software on Servers and other devices that are under the day-to-day management and control of Authorized Outsourcers, provided all such Servers and other devices are and remain fully dedicated to Customer’s use. Customer is responsible for all of the obligations under its volume licensing agreement regardless of the physical location of the hardware upon which the software is used. Except as expressly permitted here or elsewhere in these Product Terms, Customer is not permitted to install or use licensed copies of the software on Servers and other devices that are under the management or control of a third party.
+
+9. License Assignment and Reassignment
+Before Customer uses software under a License, it must assign that License to a device or user, as appropriate. Customer may reassign a License to another device or user, but not less than 90 days since the last reassignment of that same License, unless the reassignment is due to (i) permanent hardware failure or loss, (ii) termination of the user’s employment or contract or (iii) temporary reallocation of CALs, Client Management Licenses and user or device SLs to cover a user’s absence or the unavailability of a device that is out of service. Customer must remove the software or block access from the former device or to the former user. SA coverage and any Licenses that are granted or acquired in connection with SA coverage may be reassigned only with the underlying qualifying License. Additional terms apply to the reassignment of Windows desktop operating system per device licenses, as detailed in the Windows Product Entry.
+
+10. Technical Measures
+Microsoft may use technical measures to enforce terms that restrict Customer’s use of certain versions of Product and may verify compliance with those terms as provided in Customer’s volume license agreement. Some Products are protected by technological measures and require activation or validation, as well as a product key, to install or access them.
+
+10.1 Activation and validation
+Customer shall use the appropriate product key provided by Microsoft for activation and validation of the software Product being installed by the Customer. Customer’s right to use the software after the time specified in the software Product may be limited unless it is activated. Customer is not licensed to continue using the software if it has unsuccessfully attempted to activate. Each device that has not activated by a Key Management Service (KMS) must use a Multiple Activation Key (MAK) or Azure AD-based Activation. Customer may not circumvent activation or validation.
+
+10.2 Product Keys
+An assigned product key is required for licensed use of the software. All product keys are Confidential Information of Microsoft. Notwithstanding anything to the contrary in Customer’s volume licensing agreement, Customer may not disclose product keys to third parties. Customer may not provide unsecured access to its key management service (KMS) machines over an uncontrolled network. In the event of unauthorized use or disclosure of product keys or KMS keys, Microsoft may prevent further activations, deactivate or block product keys from activation or validation, and take other appropriate action.
+
+11. Notices
+Where indicated in the Use Rights section of each Product Entry, the following notices apply:
+
+11.1 Internet-based Features
+Software Products may contain features that connect and send information over the Internet, without additional notice to Customer, to Microsoft’s systems and those of its Affiliates and service providers. Use of that information is described in the Microsoft Privacy Statement (aka.ms/privacy).
+
+11.2 Bing Maps
+The Product may include use of Bing Maps. Any content provided through Bing Maps, including geocodes, can only be used within the product through which the content is provided. Customer’s use of Bing Maps is governed by the Bing Maps End User Terms of Use available at http://go.microsoft.com/?linkid=9710837 and the Microsoft Privacy Statement available at http://go.microsoft.com/fwlink/?LinkID=248686.
+
+11.3 H.264/AVC Visual Standard, the VC-1 Video Standard, and the MPEG-4 Part 2 Visual Standard
+This software may include H.264/AVC, VC-1, and MPEG-4 Part 2 visual compression technology. MPEG LA, L.L.C. requires this notice: THIS PRODUCT IS LICENSED UNDER THE AVC, THE VC-1, THE MPEG-4 PART 2 VISUAL PATENT PORTFOLIO LICENSES FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE ABOVE (“VIDEO STANDARDS”) AND/OR (ii) DECODE AVC, VC-1, MPEG-4 PART 2 VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE SUCH VIDEO. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE www.mpegla.com. For clarification purposes, this notice does not limit or inhibit the use of the software for normal business uses that are personal to that business which do not include (i) redistribution of the software to third parties, or (ii) creation of content with the VIDEO STANDARDS compliant technologies for distribution to third parties.
+
+11.4 Malware protection
+Microsoft cares about protecting customers’ devices from malware. The software will turn on malware protection if other protection is not installed or has expired. To do so, other antimalware software will be disabled or may have to be removed.
+
+12. Font Components, Images, and Sounds
+While Customer runs the software, it may access and use icons, images, sounds and media included with the software only from a Licensed Device and may use the fonts included with or installed by that software to display and print content. Customer may only embed fonts in content as permitted by the embedding restrictions in the fonts; and temporarily download them to a printer or other output device to print content.
+
+13. Included Technologies
+Products may include other Microsoft technology components subject to their own license terms, as indicated in the Use Rights section of each Product Entry. If separate terms for these components are not addressed in the Product-Specific License Terms, they may be found in a separate folder in the Product’s installation directory or through the Product’s unified installer.
+
+14. Benchmark Testing
+Customer must obtain Microsoft’s prior written approval to disclose to a third party the results of any benchmark test of any Server Product or Microsoft Desktop Optimization Pack.
+
+15. Multiplexing
+Multiplexing or pooling to reduce direct connections with the software does not reduce the number of required Licenses.
+
+16. Administrative and Support Rights
+Customer may allow access to server software running in any permitted OSE by two users without CALs solely for administrative purposes. Customer may also allow remote access to other Products solely for purposes of providing technical product support to Licensed Users or on Licensed Devices.
+
+17. Distributable Code
+Refer to the Product Entries for software that contains code and text files Customer is permitted to distribute “Distributable Code”. The code and text files listed below are also Distributable Code that may be used as described below. In the case of a conflict between the following terms and Distributable Code terms published in the Product Entry, the terms in the Product Entry govern Customer’s use of Distributable Code.
