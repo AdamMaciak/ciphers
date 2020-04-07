@@ -8,15 +8,11 @@ import java.util.stream.Collectors;
 public class LiczeniePowtorzen {
 
     public static Map<Character, Integer> cal(StringBuffer text) {
-
-        Map<Character, Integer> counts = new HashMap<>();
-
-        char []ch= text.toString().toCharArray();
-
+        Map<Character, Integer> counts = new HashMap<Character, Integer>();
+        char[] ch = text.toString().toCharArray();
         for (int i = 0; i < ch.length; i++) {
             ch[i] = Character.toUpperCase(ch[i]);
         }
-
         int x = 48;
         for (int i = 0; i < 10; i++) {
             counts.put((char) (x + i), 0);
@@ -25,13 +21,11 @@ public class LiczeniePowtorzen {
         for (int i = 0; i < 26; i++) {
             counts.put((char) (y + i), 0);
         }
-
         for (char c : ch) {
             if (counts.containsKey(c)) {
                 counts.put(c, counts.get(c) + 1);
             }
         }
-
         return sortValues(counts);
     }
 
@@ -54,8 +48,6 @@ public class LiczeniePowtorzen {
             fromFile.append('\0');
         }
         myReader.close();
-
-
         StringBuffer toFile = new StringBuffer();
         BufferedWriter writer = new BufferedWriter(new FileWriter("src/resources/liczenie/output.txt"));
 

@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class Vigenere {
 
     public static final List<Character> alfabet;
-
     static {
         alfabet = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
@@ -42,9 +41,9 @@ public class Vigenere {
                 else j=0;
             }
         }
-//        for (char i : text) {
-//            System.out.print(i);
-//        }
+        for (char i : text) {
+            System.out.print(i);
+        }
 
         //decipher
         j=0;
@@ -61,9 +60,9 @@ public class Vigenere {
                 else j=0;
             }
         }
-//
-//        for (char i : text) {
-//            System.out.print(i);
-//        }
+
+        for (char i : text) {
+            System.out.print(i);
+        }
     }
 }
