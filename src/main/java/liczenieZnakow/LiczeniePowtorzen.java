@@ -69,7 +69,7 @@ public class LiczeniePowtorzen {
         }
         writer.close();
 
-//
+////////////////////////////////////////////////////////////////////////////
         StringBuffer fromFile1 = new StringBuffer();
         File myFile1 = new File("src/resources/liczenie/odkogos.txt");
         Scanner myReader1 = new Scanner(myFile1);
