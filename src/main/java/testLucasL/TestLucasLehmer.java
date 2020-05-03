@@ -1,7 +1,5 @@
 package testLucasL;
 
-import java.util.*;
-
 public class TestLucasLehmer {
 
     public Long Power(Integer number, Integer exp) {
