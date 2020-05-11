@@ -52,7 +52,8 @@ public class algorytmRsa {
     static long[] changeBlocksCharToLong(char[] messageToEncode) {
         int position = 0;
         int length = messageToEncode.length;
-        long[] encodeMessage = new long[length / 3 + 1];
+        int size = length % 3 == 0 ? length / 3 : length / 3 + 1;
+        long[] encodeMessage = new long[size];
         for (int i = 0; i < length; i = i + 3) {
             encodeMessage[position] = ((long) messageToEncode[i]) << 16;
             if (i + 1 < length) encodeMessage[position] += ((long) messageToEncode[i + 1]) << 8;
@@ -99,7 +100,7 @@ public class algorytmRsa {
 
     public static void main(String[] args) {
         Scanner textFromConsole = new Scanner(System.in);
-       // char[] messageToEncode = "Adam_Maciak".toCharArray();
+        // char[] messageToEncode = "Adam_Maciak".toCharArray();
         String message;
         //p,q MUSZA BYC PROSTE, e też
         //2707 ,2843,10273,5087
@@ -119,10 +120,17 @@ public class algorytmRsa {
         long d = modInverse(e, phi);
         System.out.println("d = " + d);
         System.out.print("podaj tekst = ");
-        message=textFromConsole.next();
+        message = textFromConsole.next();
         System.out.println("tekst = " + message);
+        String[] blocks = message.split("(?<=\\G...)");
         long[] a = changeBlocksCharToLong(message.toCharArray());
-        System.out.print("bloki = ");
+        System.out.print("bloki= ");
+        for (String i:
+                blocks) {
+            System.out.print(i+" ");
+        }
+        System.out.println();
+        System.out.print("bloki na longi = ");
         for (long i :
                 a) {
             System.out.print(" " + i);
