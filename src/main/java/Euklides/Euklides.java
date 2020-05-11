@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Euklides {
 
-    static int modInverse(int a, int b) {
+    static public int modInverse(int a, int b) {
         int modulo = b;
         int t1 = 0, s1 = 1, t2 = 1, s2 = 0;
         while (a > 1) {
@@ -19,8 +19,8 @@ public class Euklides {
             a = temp;// w nastepnej iteracji = r_i-2
             temp = s2;
             s2 = s1 - q * s2;
-            s1=temp;
-            temp=t2;
+            s1 = temp;
+            temp = t2;
             t2 = t1 - q * t2;
             t1 = temp;
         }

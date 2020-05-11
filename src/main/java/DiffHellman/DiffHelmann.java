@@ -47,6 +47,6 @@ public class DiffHelmann {
         A = diffHelmann.ModularExp(g, a, p);
         B = diffHelmann.ModularExp(g, b, p);
         System.out.println("tajna liczba od strony Alicji k_B = B^a % p = " + diffHelmann.ModularExp(B, a, p));
-        System.out.println("tajna liczba od strony Boba k_A = B^a % p = " + diffHelmann.ModularExp(A, b, p));
+        System.out.println("tajna liczba od strony Boba k_A = A^a % p = " + diffHelmann.ModularExp(A, b, p));
     }
 }
