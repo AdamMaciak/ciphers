@@ -122,7 +122,8 @@ public class algorytmRsa {
         System.out.print("podaj tekst = ");
         message = textFromConsole.next();
         System.out.println("tekst = " + message);
-        String[] blocks = message.split("(?<=\\G...)");
+        String asd="czy jaszoal?! sda";
+        String[] blocks = asd.split("(?<=\\G...)");
         long[] a = changeBlocksCharToLong(message.toCharArray());
         System.out.print("bloki= ");
         for (String i:
